@@ -1,16 +1,5 @@
 <template>
-  <h1>NameMixer</h1>
+  <div id="app">
+    <h3>Opa!</h3>
+  </div>
 </template>
-
-<script>
-
-export default {
-  name: 'App',
-  components: {
-  }
-}
-</script>
-
-<style>
-
-</style>
