@@ -24,7 +24,7 @@
         data-size="large"
         target="_blank"
       >
-        <v-icon class="ma-3" color="white">mdi-instagram</v-icon>
+        <v-icon class="ma-" color="white">mdi-instagram</v-icon>
           Alana Nicole  
       </v-btn>
     </v-card-actions>

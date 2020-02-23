@@ -1,8 +1,8 @@
 <template>
-  <div id="background">
+  <div class="background" id="home">
     <NavBar />
-      <v-content>
-        <v-container fill-height>
+      <v-content class="content">
+        <v-container fill-height >
           <v-row>
             <v-col md="3">
               <SideBar />
@@ -30,8 +30,12 @@ export default {
 </script>
 
 <style>
-  #background {
+  .background {
     background: #1E2227;
     min-height: 150%;
+  }
+
+  .content {
+    margin-top: 70px;
   }
 </style>
