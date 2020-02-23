@@ -1,14 +1,14 @@
 <template>
-  <div>
+  <div id="background">
     <NavBar />
       <v-content>
         <v-container fill-height>
           <v-row>
-            <v-col md="4">
+            <v-col md="3">
               <SideBar />
             </v-col>
             <v-col md="8">
-              Content
+              <router-view></router-view>
             </v-col>
         </v-row>
       </v-container>
@@ -28,3 +28,10 @@ export default {
   }
 }
 </script>
+
+<style>
+  #background {
+    background: #1E2227;
+    min-height: 150%;
+  }
+</style>
